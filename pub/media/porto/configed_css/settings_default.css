@@ -1,0 +1,31 @@
+/**
+ * WARNING: Do not change this file. Your changes will be lost.
+ * 2023-09-05 20:14:10 */
+
+@media (min-width: 768px) {
+  .page-layout-1column .product-info-main,
+  .page-layout-2columns-left .product-info-main,
+  .page-layout-2columns-right .product-info-main,
+  .page-layout-3columns .product-info-main {
+    width: 32.67%;
+  }
+  .page-layout-1column .product.media,
+  .page-layout-2columns-left .product.media,
+  .page-layout-2columns-right .product.media,
+  .page-layout-3columns .product.media {
+    width: 65.33%;
+  }
+
+  .page-layout-1column .column.main > .custom-block ~ .product-info-main,
+  .page-layout-2columns-left .column.main > .custom-block ~ .product-info-main,
+  .page-layout-2columns-right .column.main > .custom-block ~ .product-info-main,
+  .page-layout-3columns .column.main > .custom-block ~ .product-info-main {
+    width: 24.5025%;
+  }
+  .page-layout-1column .column.main > .custom-block ~ .product.media,
+  .page-layout-2columns-left .column.main > .custom-block ~ .product.media,
+  .page-layout-2columns-right .column.main > .custom-block ~ .product.media,
+  .page-layout-3columns .column.main > .custom-block ~ .product.media {
+    width: 48.9975%;
+  }
+}
